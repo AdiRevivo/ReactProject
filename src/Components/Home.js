@@ -4,7 +4,7 @@ import one from '../images/one.JPG'
 import two from '../images/two.JPG'
 import three from '../images/three.JPG'
 import '../Components/Home.css'
-
+import './Home.css'
 
 export default function Home(props) {
     return (
@@ -47,7 +47,7 @@ export default function Home(props) {
 
 
 
-            <div class="card" style={{
+            {/* <div class="card" style={{
                 width: "18rem"
             }} >
                 <img src={two} class="card-img-top" alt="..." ></img>
@@ -56,7 +56,7 @@ export default function Home(props) {
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

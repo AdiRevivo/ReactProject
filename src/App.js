@@ -3,13 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './Components/login'
 import Home from './Components/Home'
-
+import Menu from './Components/menu';
+import { BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
       {/* <Game></Game> */}
       {/* <Login></Login> */}
-      <Home></Home>
+      <BrowserRouter>
+        <Menu></Menu>
+      </BrowserRouter>
     </div>
   );
 }
