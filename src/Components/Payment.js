@@ -1,7 +1,7 @@
 
 import React from "react"
 
-export default function ShoppingCart(props) {
+export default function Payment(props) {
 
     return (
 

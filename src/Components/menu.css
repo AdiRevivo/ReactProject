@@ -8,3 +8,16 @@
 .nav-link{
     direction:rtl;
 }
+.body{
+    background-color: aliceblue;
+}
+.text-md-start{
+    direction:rtl;
+    text-align: right !important
+}
+.navbar{
+    position:fixed;
+    top:0;
+    width: 100%;
+    overflow: hidden;
+}

@@ -5,3 +5,10 @@ vh25{
 body{
     background-color: white;
 }
+.carousel-inner{
+    margin-top: 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    width:100%;
+    height:400px;
+}
